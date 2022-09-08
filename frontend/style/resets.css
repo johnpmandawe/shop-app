@@ -1,0 +1,58 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  font-family: Tahoma;
+}
+body {
+  background-color: rgb(52, 91, 99);
+}
+.wrapper {
+  padding: 10px;
+}
+.wrapper > h2 {
+  text-align: center;
+  color: rgb(255, 255, 255);
+  letter-spacing: 2px;
+}
+.content {
+  max-width: 320px;
+  margin: 100px auto;
+  background-color: rgb(255, 255, 255, 0.5);
+  padding: 10px;
+  border-radius: 5px;
+}
+.input_field,
+.btn,
+.error_msg,
+.hidden_success_msg {
+  display: block;
+  width: 100%;
+  padding: 15px;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  font-size: 16.5px;
+  letter-spacing: 2px;
+  margin-bottom: 10px;
+}
+.error_msg {
+  background-color: rgb(238, 110, 110);
+  display: none;
+}
+.hidden_success_msg {
+  background-color: rgb(62, 240, 62);
+  display: none;
+}
+.btn {
+  background-color: rgb(6, 168, 6);
+}
+.btn:hover {
+  background-color: rgb(9, 241, 9);
+  transform: translateY(-2px);
+}
+.hidden_content {
+  display: none;
+}
